@@ -24,3 +24,11 @@ for(var i=0;i<g.length;i++)
     console.log(g[i][j]);
   }
 }
+// Since each row is an array of donuts, you next need to set up an inner-loop to loop over each cell in the arrays.
+
+// for (var row = 0; row < donutBox.length; row++) {
+//   // here, donutBox[row].length refers to the length of the donut array currently being looped over
+//   for (var column = 0; column < donutBox[row].length; column++) {
+//     console.log(donutBox[row][column]);
+//   }
+// }
